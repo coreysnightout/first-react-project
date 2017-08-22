@@ -5,6 +5,7 @@ import PropTypes from "prop-types";
 class NewTicketControl extends React.Component {
 
   constructor(props) {
+
     super(props);
     this.showForm = this.showForm.bind(this);
     this.hideForm = this.hideForm.bind(this);
@@ -31,7 +32,7 @@ class NewTicketControl extends React.Component {
 
     return (
       <div>
-        {formAreaContent}
+          {formAreaContent}
       </div>
     );
   }

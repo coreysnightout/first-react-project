@@ -4,9 +4,19 @@ import Queue from "./Queue";
 
 
 function App(props){
+
+  var headerStyle = {
+    textAlign: "center",
+    fontFamily: "monospace",
+    padding: "15",
+    backgroundColor: "#f4f2f5",
+  }
+
   return (
     <div>
-      <Header/>
+      <div style={headerStyle}>
+        <Header/>
+      </div>
       <Queue/>
     </div>
   );
